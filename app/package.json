@@ -1,0 +1,16 @@
+{
+  "name": "smartcanvas-desktop",
+  "productName": "Smart Canvas",
+  "identifier": "com.ciandt.smartcanvas.desktop",
+  "description": "Smart Canvas.",
+  "version": "0.1.0",
+  "author": "CI&T",
+  "copyright": "© 2016, CI&T",
+  "main": "background.js",
+  "dependencies": {
+    "electron-cookies": "^1.1.0",
+    "fs-jetpack": "^0.7.1",
+    "jquery": "^2.2.1",
+    "url-parse": "^1.0.5"
+  }
+}
