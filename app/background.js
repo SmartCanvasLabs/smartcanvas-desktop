@@ -43,7 +43,8 @@ app.on('ready', function() {
     title: manifest.productName,
     width: mainWindowState.width,
     height: mainWindowState.height,
-    preload: pathUtil.resolve(pathUtil.join(__dirname, 'platform/preloader/main.js'))
+    preload: pathUtil.resolve(pathUtil.join(__dirname, 'platform/preloader/main.js')),
+    allowDisplayingInsecureContent: true,
   });
 
   if (mainWindowState.isMaximized) {
