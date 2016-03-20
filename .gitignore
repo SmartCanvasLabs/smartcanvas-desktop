@@ -1,2 +1,8 @@
 node_modules
 bower_components
+/build/*
+!/build/README.md
+/packages/*
+!/packages/README.md
+/releases/*
+!/releases/README.md

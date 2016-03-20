@@ -52,7 +52,7 @@ app.on('ready', function() {
 
   if (env.name === 'DEV') {
     //mainWindow.loadURL('http://ciandt.d.scanvas.me');
-    mainWindow.loadURL('http://scanvas.dev.com');
+    //mainWindow.loadURL('http://scanvas.dev.com');
     mainWindow.loadURL('http://d.smartcanvas.com');
   } else if (env.name === 'TST') {
     mainWindow.loadURL('http://d.smartcanvas.com?autoLogin=on');
