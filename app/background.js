@@ -23,6 +23,8 @@ var mainWindowState = windowStateKeeper('main', {
   height: 600
 });
 
+//app.manifest = manifest;
+
 var shouldQuit = app.makeSingleInstance(function(commandLine, workingDirectory) {
   // Someone tried to run a second instance, we should focus our window.
   if (mainWindow) {
@@ -53,8 +55,8 @@ app.on('ready', function() {
 
   if (env.name === 'DEV') {
     //mainWindow.loadURL('http://ciandt.d.scanvas.me');
-    //mainWindow.loadURL('http://scanvas.dev.com');
-    mainWindow.loadURL('http://d.smartcanvas.com');
+    mainWindow.loadURL('http://scanvas.dev.com');
+    //mainWindow.loadURL('http://d.smartcanvas.com');
   } else if (env.name === 'TST') {
     mainWindow.loadURL('http://d.smartcanvas.com?autoLogin=on');
   } else {
